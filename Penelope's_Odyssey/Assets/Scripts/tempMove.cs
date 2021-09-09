@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class tempMove : MonoBehaviour
 {
-    public float speed = 6.0F;
+    public float speedVal = 6.0F;
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
@@ -12,12 +12,14 @@ public class tempMove : MonoBehaviour
     private float looker;
     public float sensitivity;
 
+    private float speed;
+   
+
     // Use this for initialization
-    void Start()
+    private void Start()
     {
-
+        speed = speedVal;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -28,15 +30,19 @@ public class tempMove : MonoBehaviour
             //Feed moveDirection with input.
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = transform.TransformDirection(moveDirection);
+
             //Multiply it by speed.
             moveDirection *= speed;
+            
             //Jumping
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
 
         }
+
         turner = Input.GetAxis("Mouse X") * sensitivity;
         looker = -Input.GetAxis("Mouse Y") * sensitivity;
+
         if (turner != 0)
         {
             //Code for action on mouse moving right
@@ -47,9 +53,22 @@ public class tempMove : MonoBehaviour
             //Code for action on mouse moving right
             transform.eulerAngles += new Vector3(looker, 0, 0);
         }
+
         //Applying gravity to the controller
         moveDirection.y -= gravity * Time.deltaTime;
+
         //Making the character move
         controller.Move(moveDirection * Time.deltaTime);
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            speed = 0;
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            speed = speedVal; 
+        }
     }
+
 }
