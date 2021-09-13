@@ -21,9 +21,11 @@ public class ThirdPersonMovement : MonoBehaviour
     private Vector3 velocity;
 
     // Notes:
-    //    Doesn't work with a rigidbody, but will need to. - RL
+    //    Doesn't work with a rigidbody, but will need to.
     //    isGrounded not working
-    //    Player can only jump if they're moving, and will clip out of the jump if they stop moving mid-jump
+    //    Jump needs to work with physics: 
+             // I.e., player should continue in the direction they jumped, not just drop straight down if they stop moving mid-jump
+    //        - RL
 
     void Update()
     {
@@ -43,6 +45,7 @@ public class ThirdPersonMovement : MonoBehaviour
             velocity.y = jumpHeight;
         }
 
+        // Determine movement direction
         if (direction.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -52,9 +55,10 @@ public class ThirdPersonMovement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-
-            controller.Move(velocity * Time.deltaTime);
         }
+        
+        // Move the controller
+        controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetMouseButtonDown(0))
             controller.enabled = false;
