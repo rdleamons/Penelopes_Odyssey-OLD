@@ -14,33 +14,34 @@ public class ThirdPersonMovement : MonoBehaviour
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
     public float groundDistance = 0.1f;
-
     public float turnSmoothTime = 0.1f;
+
     private float turnSmoothVelocity;
-
-    private float speedVal;
     private bool isGrounded;
-
     private Vector3 velocity;
 
-    private void Start()
-    {
-        speedVal = speed;
-    }
+    // Notes:
+    //    Doesn't work with a rigidbody, but will need to. - RL
+    //    isGrounded not working
+    //    Player can only jump if they're moving, and will clip out of the jump if they stop moving mid-jump
 
-    // Update is called once per frame
     void Update()
     {
+        Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        // Apply gravity to the controller
+        velocity.y += gravity * Time.deltaTime;
+
+        //Stops player from moving on NavMesh path
+        gameObject.GetComponent<NavMeshAgent>().velocity = Vector3.zero;
+
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-
-        if (isGrounded && velocity.y < 0)
+        
+        // Jump
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
-            velocity.y = -2f;
+            //velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            velocity.y = jumpHeight;
         }
-
-        float horizotal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 direction = new Vector3(horizotal, 0f, vertical);
 
         if (direction.magnitude >= 0.1f)
         {
@@ -52,28 +53,14 @@ public class ThirdPersonMovement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
 
-            if (Input.GetButtonDown("Jump") && isGrounded)
-            {
-                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-            }
-
-            velocity.y += gravity * Time.deltaTime;
-
             controller.Move(velocity * Time.deltaTime);
         }
 
-        gameObject.GetComponent<NavMeshAgent>().velocity = Vector3.zero;
-
         if (Input.GetMouseButtonDown(0))
-        {
             controller.enabled = false;
-        }
 
         if (Input.GetMouseButtonUp(0))
-        {
             controller.enabled = true;
-        }
-
     }
 
 }

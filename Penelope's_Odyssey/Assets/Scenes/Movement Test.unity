@@ -571,15 +571,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 623207269}
   cam: {fileID: 1902702163}
-  speed: 6
-  gravity: -9.81
-  jumpHeight: 3
-  turnSmoothTime: 0.1
   groundCheck: {fileID: 1741024466}
-  groundDistance: 0.1
   groundMask:
     serializedVersion: 2
     m_Bits: 128
+  speed: 6
+  gravity: -9.81
+  jumpHeight: 3
+  groundDistance: 0.1
+  turnSmoothTime: 0.1
 --- !u!1 &783618102
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +940,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641280127}
-  m_LocalRotation: {x: 0.23317906, y: 0.00009515345, z: -0.000022807877, w: 0.97243387}
+  m_LocalRotation: {x: 0.23317869, y: -0.000072721195, z: 0.000017446606, w: 0.97243387}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1211,7 +1211,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896232903}
-  m_LocalRotation: {x: 0.21533412, y: -0.00000015209568, z: 0.00000002139919, w: 0.97654045}
+  m_LocalRotation: {x: 0.2153343, y: -0.0000001520957, z: 0.000000021399217, w: 0.97654045}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
