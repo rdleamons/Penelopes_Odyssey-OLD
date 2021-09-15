@@ -105,8 +105,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -189,8 +187,6 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
-      Script: {instanceID: 0}
-    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -276,6 +272,8 @@ ScriptsOnlyBuild:
     - Class: 49
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -1445,4 +1443,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/StartScreen.unity
   - Assets/Scenes/Path Testing.unity
   - Assets/Scenes/Proof of Concept.unity
-  playerPath: D:/Penelope's Odyssey/Penelopes_Odyssey/Proof Of Concept/Penelope's_Odyssey.exe
+  playerPath: D:/Penelope's Odyssey/Proof Of Concept/Penelope's_Odyssey.exe
