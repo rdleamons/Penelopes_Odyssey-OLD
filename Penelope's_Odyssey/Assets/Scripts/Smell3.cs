@@ -19,12 +19,13 @@ public class Smell3 : MonoBehaviour
         // Calculate NavMesh path.
         NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
 
+        // Draw the path on mouse click
         if (Input.GetMouseButtonDown(0))
         {
-            line.positionCount = 1;
             DrawPath(path);
         }
 
+        // Stop drawing path when no longer clicking
         if (Input.GetMouseButtonUp(0))
         {
             line.positionCount = 0;

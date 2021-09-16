@@ -15,6 +15,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public float jumpHeight = 3f;
     public float groundDistance = 0.1f;
     public float turnSmoothTime = 0.1f;
+    public bool canMove;
 
     private float turnSmoothVelocity;
     private bool isGrounded;
@@ -30,11 +31,9 @@ public class ThirdPersonMovement : MonoBehaviour
     void Update()
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
         // Apply gravity to the controller
         velocity.y += gravity * Time.deltaTime;
-
-        //Stops player from moving on NavMesh path
-        gameObject.GetComponent<NavMeshAgent>().velocity = Vector3.zero;
 
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
@@ -46,7 +45,7 @@ public class ThirdPersonMovement : MonoBehaviour
         }
 
         // Determine movement direction
-        if (direction.magnitude >= 0.1f)
+        if (direction.magnitude >= 0.1f && canMove)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
@@ -58,13 +57,14 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         
         // Move the controller
-        controller.Move(velocity * Time.deltaTime);
+        if(canMove)
+            controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetMouseButtonDown(0))
-            controller.enabled = false;
+            canMove = false;
 
         if (Input.GetMouseButtonUp(0))
-            controller.enabled = true;
+            canMove = true;
     }
 
 }

@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 1420103875337823580}
   - component: {fileID: 1420103875337823581}
   - component: {fileID: 1420103875337823579}
+  - component: {fileID: 8039521247803240419}
   m_Layer: 6
   m_Name: Penelope
   m_TagString: Player
@@ -156,9 +157,10 @@ MonoBehaviour:
     m_Bits: 128
   speed: 6
   gravity: -9.81
-  jumpHeight: 6
+  jumpHeight: 8
   groundDistance: 0.1
   turnSmoothTime: 0.1
+  canMove: 0
 --- !u!195 &1420103875337823581
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -199,6 +201,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8039521247803240419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420103875337823578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1a3995ae614f848b48ee163fc37563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  line: {fileID: 1420103875935222343}
+  target: {fileID: 0}
 --- !u!1 &1420103875935222340
 GameObject:
   m_ObjectHideFlags: 0
