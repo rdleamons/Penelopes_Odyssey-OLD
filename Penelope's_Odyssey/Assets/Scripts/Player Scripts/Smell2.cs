@@ -8,6 +8,7 @@ public class Smell2 : MonoBehaviour
     public LineRenderer line; //to hold the line Renderer
     public Transform target; //to hold the transform of the target
     public NavMeshAgent agent; //to hold the agent of this gameObject
+    public NavMeshPath path;
 
     private void Update()
     {
@@ -26,10 +27,12 @@ public class Smell2 : MonoBehaviour
 
     IEnumerator getPath()
     {
-        line.SetPosition(0, transform.position); //set the line's origin
+        line.SetPosition(0, agent.transform.position); //set the line's origin
 
         agent.SetDestination(target.position); //create the path
         yield return new WaitForEndOfFrame(); //wait for the path to generate
+
+        NavMesh.CalculatePath(agent.transform.position, target.transform.position, NavMesh.AllAreas, path);
 
         DrawPath(agent.path);
     }
