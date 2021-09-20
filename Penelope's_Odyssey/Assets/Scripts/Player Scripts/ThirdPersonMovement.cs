@@ -25,9 +25,12 @@ public class ThirdPersonMovement : MonoBehaviour
     //    Doesn't work with a rigidbody, but will need to.
     //    isGrounded not working
     //    Jump needs to work with physics: 
-             // I.e., player should continue in the direction they jumped, not just drop straight down if they stop moving mid-jump
+    // I.e., player should continue in the direction they jumped, not just drop straight down if they stop moving mid-jump
     //        - RL
-
+    private void Start()
+    {
+        canMove = true;
+    }
     void Update()
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));

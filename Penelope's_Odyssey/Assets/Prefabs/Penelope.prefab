@@ -46,6 +46,7 @@ GameObject:
   - component: {fileID: 1420103875337823581}
   - component: {fileID: 1420103875337823579}
   - component: {fileID: 8039521247803240419}
+  - component: {fileID: 5435779671146010942}
   m_Layer: 6
   m_Name: Penelope
   m_TagString: Player
@@ -215,6 +216,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   line: {fileID: 1420103875935222343}
   target: {fileID: 0}
+--- !u!54 &5435779671146010942
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420103875337823578}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1420103875935222340
 GameObject:
   m_ObjectHideFlags: 0
@@ -225,7 +242,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1420103875935222341}
   - component: {fileID: 1420103875935222343}
-  - component: {fileID: 1420103875935222342}
   m_Layer: 0
   m_Name: Sniff
   m_TagString: Untagged
@@ -345,18 +361,3 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
---- !u!114 &1420103875935222342
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1420103875935222340}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d0376af094a8df428d36123b228ba92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  line: {fileID: 1420103875935222343}
-  target: {fileID: 0}
-  agent: {fileID: 1420103875337823581}

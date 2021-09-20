@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -512,7 +512,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.40950018, y: -0.10310165, z: 0.046638682, w: -0.90526485}
   m_Size:
-    m_Target: 15.245383
+    m_Target: 14.026149
     speed: 2
     m_Value: 14.588883
   m_Ortho:
@@ -577,13 +577,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey
   m_LockTracker:
