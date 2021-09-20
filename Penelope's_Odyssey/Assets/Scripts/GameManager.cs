@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
 
     public float getHunger()
     {
-        hunger = hunger - sub / 1800;
+        hunger = hunger - sub / 180;
         return hunger;
     }
 
