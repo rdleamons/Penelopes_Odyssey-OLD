@@ -561,7 +561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hunger: 100
+  sub: 2
   HungerBar: {fileID: 1531867425}
+  loseText: {fileID: 0}
 --- !u!1 &499167595
 GameObject:
   m_ObjectHideFlags: 0
