@@ -372,7 +372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab86589f88bf479468d953da84d64111, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Proof of Concept
+  sceneName: First Playable
 --- !u!1 &874469944
 GameObject:
   m_ObjectHideFlags: 0
