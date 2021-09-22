@@ -9,6 +9,7 @@ public class Smell3 : MonoBehaviour
     public Transform target;
     private NavMeshPath path;
     public CharacterController controller;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class Smell3 : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && controller.isGrounded)
         {
             DrawPath(path);
+            audioSource.Play();
         }
 
         // Stop drawing path when no longer clicking
