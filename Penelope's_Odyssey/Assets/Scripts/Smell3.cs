@@ -8,6 +8,7 @@ public class Smell3 : MonoBehaviour
     public LineRenderer line; //to hold the line Renderer
     public Transform target;
     private NavMeshPath path;
+    public CharacterController controller;
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class Smell3 : MonoBehaviour
         NavMesh.CalculatePath(transform.position, target.position, NavMesh.AllAreas, path);
 
         // Draw the path on mouse click
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && controller.isGrounded)
         {
             DrawPath(path);
         }

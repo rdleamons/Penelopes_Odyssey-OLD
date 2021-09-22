@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 2168
+  controlID: 10532
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 2169
+  controlID: 10537
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 2170
+  controlID: 10538
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -397,9 +397,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e6490000
-      m_LastClickedID: 18918
-      m_ExpandedIDs: 50fbffffde4900009a4a0000
+      m_SelectedIDs: 944a0000
+      m_LastClickedID: 19092
+      m_ExpandedIDs: 4efbffff50fbffffde490000a24a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -11.681434, y: -3.7700505, z: 2.4024582}
+    m_Target: {x: 16.275833, y: -0.74011445, z: 2.1014216}
     speed: 2
-    m_Value: {x: -11.681434, y: -3.7700505, z: 2.4024582}
+    m_Value: {x: 16.275833, y: -0.74011445, z: 2.1014216}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -508,13 +508,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.62996554, y: -0.11248074, z: 0.0928936, w: -0.76280236}
+    m_Target: {x: -0.26156914, y: 0.43054262, z: -0.13191375, w: -0.85370916}
     speed: 2
-    m_Value: {x: -0.62996554, y: -0.11248074, z: 0.0928936, w: -0.76280236}
+    m_Value: {x: -0.26156914, y: 0.43054262, z: -0.13191375, w: -0.85370916}
   m_Size:
-    m_Target: 9.724676
+    m_Target: 2.838039
     speed: 2
-    m_Value: 9.30591
+    m_Value: 2.838039
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -577,22 +577,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Player Scripts
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Player Scripts
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 16.399994}
-    m_SelectedIDs: 644d0000
-    m_LastClickedID: 19812
-    m_ExpandedIDs: 000000000e4b00004c4b000000ca9a3b
+    m_SelectedIDs: 564b0000
+    m_LastClickedID: 19286
+    m_ExpandedIDs: 00000000184b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e4b000000ca9a3b
+    m_ExpandedIDs: 00000000184b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -733,7 +733,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 240
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0

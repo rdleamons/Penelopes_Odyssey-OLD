@@ -20,6 +20,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private float turnSmoothVelocity;
     private bool isGrounded;
     private Vector3 velocity;
+    float DisstanceToTheGround;
 
     // Notes:
     //    Doesn't work with a rigidbody, but will need to.
@@ -30,21 +31,24 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Start()
     {
         canMove = true;
+
+        DisstanceToTheGround = GetComponent<Collider>().bounds.extents.y;
+
     }
     void Update()
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         // Apply gravity to the controller
         velocity.y += gravity * Time.deltaTime;
-
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
         // Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && canMove)
         {
             //velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             velocity.y = jumpHeight;
+            isGrounded = false;
         }
 
         // Determine movement direction
@@ -62,7 +66,8 @@ public class ThirdPersonMovement : MonoBehaviour
         // Move the controller
         controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetMouseButtonDown(0))
+        // Can't sniff if you're jumping
+        if (Input.GetMouseButtonDown(0) && isGrounded)
             canMove = false;
 
         if (Input.GetMouseButtonUp(0))
