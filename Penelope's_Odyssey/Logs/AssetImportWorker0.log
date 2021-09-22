@@ -15,11 +15,11 @@ D:/Penelope's Odyssey/Penelopes_Odyssey/Penelope's_Odyssey
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-1077
+1099
 Successfully changed project path to: D:/Penelope's Odyssey/Penelopes_Odyssey/Penelope's_Odyssey
 D:/Penelope's Odyssey/Penelopes_Odyssey/Penelope's_Odyssey
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.89 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path D:/Unity Files/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -36,142 +36,142 @@ Initialize mono
 Mono path[0] = 'D:/Unity Files/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Files/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity Files/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Files/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001167 seconds.
+Registered in 0.001015 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.917 seconds
+- Completed reload, in  1.027 seconds
 Domain Reload Profiling:
-	ReloadAssembly (917ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (1027ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (392ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (138ms)
+			SetupTypeCache (174ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (163ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003054 seconds.
+Registered in 0.003083 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B0777A2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FCEF4090 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0743019D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000200FD19C830 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0740AD750 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-00000200FDD31400 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077191020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000200FD327650 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077191020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD327650 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077110E30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000200FD327650 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07492B9B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FAA06220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0771C8230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000200FD2E6230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074300750 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-00000200FAF58450 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F87010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000200FD207020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077D32A30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000200FD207020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074300750 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000200FAF58DB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F87010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FD207020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0771C8230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000200FD2E6230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077D4E180 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000200FAB31A60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074EAA040 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FCFC8C20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0776E6220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000200FD1E1230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076FAD220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FD22D230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0740ADFD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000200FE712030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078439020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200FAA06220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0772CF010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000200FD357020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078439020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-00000200FB012020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074300750 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000200FAF58090 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077775620 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000200FD4A7020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077775620 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FD4A7020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074509010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FD094010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.33 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.882 seconds
+- Completed reload, in  2.245 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1883ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (2246ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1704ms)
-			LoadAssemblies (80ms)
+		EndReloadAssembly (2051ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (288ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1177ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1399ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (1047ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (1253ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2823 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 128.5 MB.
 System memory in use after: 128.6 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3255.
-Total: 3.215200 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.791700 ms  DeleteObjects: 0.068300 ms)
+Total: 3.112600 ms (FindLiveObjects: 0.231400 ms CreateObjectMapping: 0.120600 ms MarkObjects: 2.689100 ms  DeleteObjects: 0.070400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -186,102 +186,102 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts
-  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.004143 seconds 
-  Import took 0.007783 seconds .
+  path: Assets/Scripts/loadScene.cs
+  artifactKey: Guid(ab86589f88bf479468d953da84d64111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/loadScene.cs using Guid(ab86589f88bf479468d953da84d64111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0e33a552b51319e28e4064944c14fc') in 0.031124 seconds 
+  Import took 0.034955 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 59.412388 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(1a523b30c7521804297dd010dbe655eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(1a523b30c7521804297dd010dbe655eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f322d5ec91183842f6ecb1d8337a4af') in 0.033554 seconds 
-  Import took 0.038034 seconds .
+  Time since last request: 84.827864 seconds.
+  path: Assets/Scripts/loadScene.cs
+  artifactKey: Guid(ab86589f88bf479468d953da84d64111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/loadScene.cs using Guid(ab86589f88bf479468d953da84d64111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f77f3a6afa445711ffc1800e146841c') in 0.001818 seconds 
+  Import took 0.006346 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003004 seconds.
+Registered in 0.003010 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B0777A2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001FF04FAB020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077CA2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000200FA8F3C10 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0773E2800 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001FF09E147D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077011890 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000200FA743C20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077514500 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074CCE010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FF01029020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07492B9B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0781E9010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000200FAAC9020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077BED530 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001FF0A034B80 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0770E9020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000200FA949FD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074CCE010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000200FAAC9020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077BED710 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001FF0A0347C0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077664010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FD31D770 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074AFD010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000200FAAC9020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07B8ED010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FF01E03010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0773C3C30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FAE37F00 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07B39E020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FF01029020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077D28020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001FF0491CE20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074A603C0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001FF03239700 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07492B9B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077191020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000200FA9DE010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078887E20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF03230020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077BEDAD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001FF0A0338C0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074509010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.836 seconds
+- Completed reload, in  1.830 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1836ms)
-		BeginReloadAssembly (144ms)
+	ReloadAssembly (1830ms)
+		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1641ms)
-			LoadAssemblies (84ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (1625ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (299ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (1127ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (1110ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (1047ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (1011ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -289,14 +289,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.0 MB.
 System memory in use after: 120.2 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3257.
-Total: 3.666400 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.106900 ms MarkObjects: 3.281000 ms  DeleteObjects: 0.025200 ms)
+Total: 3.361300 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.113400 ms MarkObjects: 2.963300 ms  DeleteObjects: 0.029800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -312,101 +312,101 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003012 seconds.
+Registered in 0.004562 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B077AD4010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077CA2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000200FE320120 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A1EAA250 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-0000020120F39260 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077011890 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001FF08820FB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84DB5010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FF0A5C5010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074640020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84DB5010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000200FEB2C030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A2541340 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002012173CD10 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84B91C60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000020121C0F540 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84DB5010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FF0A5C5010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A253EFA0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002012173CB30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F87010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FDB70020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84DB5010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000200FEB2C030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078ABF050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000200FAE37080 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0740D45F0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FE30C030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE83F84FD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FF0343C010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A829020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FEE0F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A275F4C0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000200F36E9800 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B09FE8BE40 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001FF00DA7E50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07713D020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000200FD1B3020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0772B5670 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF00FD8010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A253EFA0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002012173CB30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07B45E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074509010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.931 seconds
+- Completed reload, in  1.989 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1932ms)
-		BeginReloadAssembly (185ms)
+	ReloadAssembly (1989ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1695ms)
-			LoadAssemblies (82ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1801ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (273ms)
+			SetupTypeCache (375ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (1197ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (1190ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (1108ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (1096ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.0 MB.
 System memory in use after: 120.3 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3259.
-Total: 4.180300 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.114500 ms MarkObjects: 3.748900 ms  DeleteObjects: 0.037700 ms)
+Total: 3.762000 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.144800 ms MarkObjects: 3.305900 ms  DeleteObjects: 0.028100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -422,86 +422,86 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004089 seconds.
+Registered in 0.003396 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B077365020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A3D5E60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001FF03445B20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A1EA9CE0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001FF03BFB8B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000200FA743C20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A1ED5620 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020122019020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07421F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FF01324D80 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A5215A10 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-0000020124707F90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07BB7D940 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000200FF114E70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FF00D9E020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A5219250 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000201247041B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F87010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FDB70020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FF01324D80 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077D42D40 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FF00AE2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0773C2C30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FAB2E840 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A0DFBEC0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FF03259F30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077D28020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FDA8B010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07CFA6830 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000200FCA78B00 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076FAD220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07EB15020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001FF03156010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D7C8010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF00FD8010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A5218AD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-0000020124707F90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84BB6010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000200FA743C20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B2B030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.872 seconds
+- Completed reload, in  1.842 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1873ms)
-		BeginReloadAssembly (150ms)
+	ReloadAssembly (1842ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1672ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1658ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
+			SetupTypeCache (300ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (1138ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (1118ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (1055ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (1032ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -516,7 +516,7 @@ System memory in use before: 120.1 MB.
 System memory in use after: 120.3 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3261.
-Total: 3.379200 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.115700 ms MarkObjects: 3.010800 ms  DeleteObjects: 0.023600 ms)
+Total: 3.559200 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.111800 ms MarkObjects: 3.176900 ms  DeleteObjects: 0.021400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -532,101 +532,101 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002970 seconds.
+Registered in 0.003051 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A86545B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001FF0A2A6860 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A77E5F30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-00000201268101A0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A28166D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001FF01D84020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D640020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000200FAD67020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A3CC030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001FF0106F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A738DCB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002012638CCD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078C29E60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FF04742820 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D640020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001FF03259F30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A738DE90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002012638CEB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F87010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FD628030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001FF0106F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078ABF050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000200FD1F11A0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07CD53E50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FAB2E840 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A39FF70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000020123FCBFA0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A2BA0020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FDA8B010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A553CFD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000200F36EA0D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076FAD220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000002012787AEC0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077A88020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000200FE96A020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07B1B2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF006A8E20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A738DCB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002012638CAF0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A28166D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FF01D84020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B2B030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.826 seconds
+- Completed reload, in  1.931 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1826ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1931ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1656ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1755ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (286ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (1155ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (1070ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (1135ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.1 MB.
 System memory in use after: 120.3 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3263.
-Total: 3.681100 ms (FindLiveObjects: 0.227800 ms CreateObjectMapping: 0.102300 ms MarkObjects: 3.323500 ms  DeleteObjects: 0.026400 ms)
+Total: 3.533500 ms (FindLiveObjects: 0.237000 ms CreateObjectMapping: 0.092900 ms MarkObjects: 3.182200 ms  DeleteObjects: 0.020300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -642,86 +642,86 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002836 seconds.
+Registered in 0.004250 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E7E4E50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000200FAA67CE0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07AAB5BF0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002012680FFD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07833F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000200FDB70020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07CD4A020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000200FD6E0030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AA6843E0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-00000201295ED7B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A8A0F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FF00FDDD50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0775C9CD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000200FDB70020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AA684F20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000201295EAE70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F87010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FD628030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000200FD6E0030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07BDC3840 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FF00BE2010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D6F2020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001FF03263D60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07BAFDA60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001FF00C97F60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A2BA0020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FDB81EE0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07434A030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001FF03447730 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A5EE020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000002012A804010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED46050 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF006A8E20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AA687680 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000201295E7F90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84B6C020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FF04CC3020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B2B030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.816 seconds
+- Completed reload, in  1.835 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1817ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1835ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (1616ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (88ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
+			SetupTypeCache (295ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (1090ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (1103ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (73ms)
-				ProcessInitializeOnLoadAttributes (1007ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (1021ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -729,14 +729,14 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.1 MB.
 System memory in use after: 120.3 MB.
 
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3265.
-Total: 3.238500 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.888600 ms  DeleteObjects: 0.019100 ms)
+Total: 3.527900 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.097000 ms MarkObjects: 3.160300 ms  DeleteObjects: 0.021900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -752,416 +752,86 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002937 seconds.
+Registered in 0.003194 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A3D0040 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001FF00AC7E50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AC665230 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002012B36A200 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0ABA8E030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001FF00BA8010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0770E9020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB7A8880 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001FF01029020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0781E9010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D269E70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020123FCBFA0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AD9A2F50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002012C87CA30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0ABBB0010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000002012A9C6E60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AE728BC0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000200FAD67020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AD99FE90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002012C87A2D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A8AF9010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FD628030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D269E70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020123FCBFA0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07ED4FE80 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001FF04D09E50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B049E00490 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FDCA4220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07BAFDA60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000200FEF31010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B049DFF3D0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-000001FF04C2CA60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0781E9010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07AD28010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000020121D27640 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84F4D010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF04B3E020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AD9A6D30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002012C87F370 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0ABA8E030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001FF00BA8010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B2B030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.827 seconds
+- Completed reload, in  1.768 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1827ms)
+	ReloadAssembly (1769ms)
 		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1646ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1586ms)
 			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (286ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (1139ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (1048ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.1 MB.
-System memory in use after: 120.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3267.
-Total: 3.557500 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.115900 ms MarkObjects: 3.164900 ms  DeleteObjects: 0.016600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004025 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B12084F0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AFBFF790 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AE91D020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0ABC02030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A851030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07AA61020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B0F18E40 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AE88D020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A672020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B0F1AE20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A9EF010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07AA61020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D273CA0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077103630 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84D40E60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84F3B020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07D5BB940 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A851030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07BB7D940 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB9B0020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B0F18C60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AE91D020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B2B030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.730 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1731ms)
-		BeginReloadAssembly (119ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1557ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (1074ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (995ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.1 MB.
-System memory in use after: 120.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3269.
-Total: 3.525000 ms (FindLiveObjects: 0.235300 ms CreateObjectMapping: 0.108000 ms MarkObjects: 3.158900 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002975 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A3D0040 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B2EAA930 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B151A010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07AA9B020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A851030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB7A8880 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077B23640 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074509010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A672020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077B1DC40 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B43A4330 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB7A8880 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B420D440 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B4422010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074A07730 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F99020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074552A50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A851030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07CC92020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001AE84F4D010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077B24720 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B151A010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E8CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.803 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1804ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1618ms)
-			LoadAssemblies (86ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (1084ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (998ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 120.1 MB.
-System memory in use after: 120.3 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3271.
-Total: 3.192400 ms (FindLiveObjects: 0.231300 ms CreateObjectMapping: 0.095300 ms MarkObjects: 2.849000 ms  DeleteObjects: 0.015700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003178 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B049E00490 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B61AE4F0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B44CFC70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A5973010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A851030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B723F010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077905DD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B2B030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B723F010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077903A30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07EBD9380 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B723F010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB7B26B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB90D950 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074A07730 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B076F99020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B074B74A70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB7F52A0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A806E70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB9AF010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077903490 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E4CC010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077227010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.795 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1796ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1624ms)
-			LoadAssemblies (76ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (1133ms)
+			SetupLoadedEditorAssemblies (1095ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (72ms)
-				ProcessInitializeOnLoadAttributes (1051ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (998ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
@@ -1175,8 +845,8 @@ Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.1 MB.
 System memory in use after: 120.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3273.
-Total: 5.814000 ms (FindLiveObjects: 0.459900 ms CreateObjectMapping: 0.198400 ms MarkObjects: 5.133600 ms  DeleteObjects: 0.020100 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3267.
+Total: 3.548500 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.104700 ms MarkObjects: 3.180400 ms  DeleteObjects: 0.022800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1192,101 +862,321 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003602 seconds.
+Registered in 0.003006 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001B0A5BAFD20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07AB18E50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000200FE320120 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B84C0850 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000002012E829600 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B7148330 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B078CDA010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AE46B330 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000020126F2FE20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B432ABB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A59D8020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000020126F2FE20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B82D6C30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000002012FA7FB80 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077227010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001FF00572C40 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AE46B330 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000020126F2FE20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B82D1F50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000002012FA86DE0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B4487010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000200FD628030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A59D8020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000020126F2FE20 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B9EE9020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000002012A8AB110 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B077AB4030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000200FDCA4220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0A59E9F30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000200FF114E70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000200FF01D020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B4E60AB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-0000020128EE7A30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0AB7F52A0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07A806E70 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000200FD207020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0775D1CE0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001FF006A8D10 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B82D4E30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000002012FA83F00 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B0B7148330 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000020125443BC0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E3CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001B07E8CC020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.863 seconds
+- Completed reload, in  1.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1863ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1695ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1620ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
+			SetupTypeCache (276ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (1194ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (1125ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (1104ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (1044ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 120.1 MB.
-System memory in use after: 120.4 MB.
+System memory in use after: 120.3 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3275.
-Total: 3.828000 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.173400 ms MarkObjects: 3.312800 ms  DeleteObjects: 0.022800 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3269.
+Total: 3.401600 ms (FindLiveObjects: 0.242900 ms CreateObjectMapping: 0.108400 ms MarkObjects: 3.029600 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002012A7BC4C0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000201318F8A30 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF01D30020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF0A3DD020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FB209010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020121BB39B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD094010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FDB70020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020121BB7010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD628030 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF00C97F60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002012D577FB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020132CE0920 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF00572C40 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002012A8A5B90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020132EDA640 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020127905020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020121BB0CB0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF01D30020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.777 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1777ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1612ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (1099ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (1019ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3271.
+Total: 3.676300 ms (FindLiveObjects: 0.236900 ms CreateObjectMapping: 0.088300 ms MarkObjects: 3.331000 ms  DeleteObjects: 0.018800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002997 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000200FB09F020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020126F39C50 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020134963890 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002012A87C010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD68E010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020132EEA660 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF00400080 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020134813CD0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD094010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020132EEA660 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020134811570 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020135B0FC60 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF00400080 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000201332091E0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FDCA4220 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001FF008B3F90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000201334E88B0 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD4E2520 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FD207020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FE389850 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000020134814F90 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002012A87C010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FCF36010 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000200FCFDF020 doesn't match image D:\Penelope's Odyssey\Penelopes_Odyssey\Penelope's_Odyssey\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1806ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1639ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (1158ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (1078ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.1 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3273.
+Total: 3.360100 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.097000 ms MarkObjects: 3.015300 ms  DeleteObjects: 0.015700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

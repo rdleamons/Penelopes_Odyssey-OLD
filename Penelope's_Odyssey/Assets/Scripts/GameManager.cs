@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public Slider HungerBar;
     public TextMeshProUGUI loseText;
     public TextMeshProUGUI winText;
+    public Movement movement;
 
     private void Start()
     {
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator lose()
     {
+        movement.canMove = false;
         loseText.enabled = true;
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("StartScreen");
@@ -51,6 +53,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator win()
     {
+        movement.canMove = false;
         winText.enabled = true;
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("StartScreen");
