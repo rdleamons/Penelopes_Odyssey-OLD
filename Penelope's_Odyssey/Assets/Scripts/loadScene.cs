@@ -3,10 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
 public class loadScene : MonoBehaviour
 {
     public string sceneName;
+    //public TextMeshProUGUI winText;
+    public Movement movement;
+
+    private void Start()
+    {
+        //winText.enabled = false;
+    }
 
     public void LoadScene()
     {
@@ -22,7 +30,16 @@ public class loadScene : MonoBehaviour
     {
         if(col.CompareTag("Player"))
         {
-            SceneManager.LoadScene("StartScreen");
+            StartCoroutine("win");
         }
+    }
+
+    IEnumerator win()
+    {
+        movement.canMove = false;
+        //winText.enabled = true;
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("StartScreen");
+
     }
 }

@@ -25,23 +25,26 @@ public class ThirdPersonMovement : MonoBehaviour
     //    Doesn't work with a rigidbody, but will need to.
     //    isGrounded not working
     //    Jump needs to work with physics: 
-             // I.e., player should continue in the direction they jumped, not just drop straight down if they stop moving mid-jump
+    // I.e., player should continue in the direction they jumped, not just drop straight down if they stop moving mid-jump
     //        - RL
-
+    private void Start()
+    {
+        canMove = true;
+    }
     void Update()
     {
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         // Apply gravity to the controller
         velocity.y += gravity * Time.deltaTime;
-
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
         // Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded && canMove)
         {
             //velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             velocity.y = jumpHeight;
+            isGrounded = false;
         }
 
         // Determine movement direction
@@ -57,10 +60,10 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         
         // Move the controller
-        if(canMove)
-            controller.Move(velocity * Time.deltaTime);
+        controller.Move(velocity * Time.deltaTime);
 
-        if (Input.GetMouseButtonDown(0))
+        // Can't sniff if you're jumping
+        if (Input.GetMouseButtonDown(0) && isGrounded)
             canMove = false;
 
         if (Input.GetMouseButtonUp(0))
