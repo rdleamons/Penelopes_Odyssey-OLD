@@ -20,7 +20,6 @@ public class ThirdPersonMovement : MonoBehaviour
     private float turnSmoothVelocity;
     private bool isGrounded;
     private Vector3 velocity;
-    float DisstanceToTheGround;
 
     // Notes:
     //    Doesn't work with a rigidbody, but will need to.
@@ -31,9 +30,6 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Start()
     {
         canMove = true;
-
-        DisstanceToTheGround = GetComponent<Collider>().bounds.extents.y;
-
     }
     void Update()
     {
