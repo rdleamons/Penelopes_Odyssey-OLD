@@ -60,8 +60,7 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         
         // Move the controller
-        if(canMove)
-            controller.Move(velocity * Time.deltaTime);
+        controller.Move(velocity * Time.deltaTime);
 
         if (Input.GetMouseButtonDown(0))
             canMove = false;
