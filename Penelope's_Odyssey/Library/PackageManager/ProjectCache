@@ -66,8 +66,6 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
-        - 1.10.2
-        - 1.11.2
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -82,8 +80,6 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
-        - 1.10.2
-        - 1.11.2
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -462,7 +458,6 @@ m_PackageAssets:
         - 10.5.0
         - 10.5.1
         - 10.6.0
-        - 10.7.0
         compatible:
         - 10.5.1
         - 10.6.0
