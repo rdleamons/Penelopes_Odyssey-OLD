@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Path Testing.unity
     guid: 20df3b78e95aed0458a60e084f26d6b2
   - enabled: 1
-    path: Assets/Scenes/Proof of Concept.unity
+    path: Assets/Scenes/Proof of Concept/Proof of Concept.unity
     guid: 37459dc541c54974b8b92cb54c7c301f
   - enabled: 1
     path: Assets/Scenes/First Playable___.unity
