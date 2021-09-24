@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Proof of Concept.unity
     guid: 37459dc541c54974b8b92cb54c7c301f
   - enabled: 1
-    path: Assets/Scenes/First Playable.unity
+    path: Assets/Scenes/First Playable___.unity
     guid: 2a9fc7909df96024b926ca5c5e680d8c
   m_configObjects: {}

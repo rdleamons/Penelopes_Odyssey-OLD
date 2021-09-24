@@ -8,11 +8,8 @@ public class Smell3 : MonoBehaviour
     public LineRenderer line; //to hold the line Renderer
     public Transform target;
     private NavMeshPath path;
-<<<<<<< HEAD
-=======
     public CharacterController controller;
     public AudioSource audioSource;
->>>>>>> 6857599d026a195703ee9eae013b64310328c5e8
 
     void Start()
     {
