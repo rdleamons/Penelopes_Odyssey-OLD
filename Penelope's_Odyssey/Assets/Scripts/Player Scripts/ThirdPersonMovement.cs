@@ -7,7 +7,6 @@ public class ThirdPersonMovement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
-    public Transform groundCheck;
     public LayerMask groundMask;
 
     public float speed = 6f;
@@ -18,12 +17,10 @@ public class ThirdPersonMovement : MonoBehaviour
     public bool canMove;
 
     private float turnSmoothVelocity;
-    private bool isGrounded;
     private Vector3 velocity;
 
     // Notes:
     //    Doesn't work with a rigidbody, but will need to.
-    //    isGrounded not working
     //    Jump needs to work with physics: 
     // I.e., player should continue in the direction they jumped, not just drop straight down if they stop moving mid-jump
     //        - RL
@@ -37,11 +34,9 @@ public class ThirdPersonMovement : MonoBehaviour
 
         // Apply gravity to the controller
         velocity.y += gravity * Time.deltaTime;
-
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
         // Jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             //velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
             velocity.y = jumpHeight;
