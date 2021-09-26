@@ -8,7 +8,7 @@ using TMPro;
 public class loadScene : MonoBehaviour
 {
     public string sceneName;
-    //public TextMeshProUGUI winText;
+    public TextMeshProUGUI winText;
     //public Movement movement;
 
     private void Start()
@@ -37,7 +37,7 @@ public class loadScene : MonoBehaviour
     IEnumerator win()
     {
         //movement.canMove = false;
-        //winText.enabled = true;
+        winText.enabled = true;
         yield return new WaitForSeconds(3);
         SceneManager.LoadScene("StartScreen");
 
