@@ -16,7 +16,8 @@ GameObject:
   - component: {fileID: 8979894675732807191}
   - component: {fileID: 4872694863872085541}
   - component: {fileID: 881670630843122732}
-  - component: {fileID: 3871428202414332143}
+  - component: {fileID: 127364369858949295}
+  - component: {fileID: 5073779097853250628}
   m_Layer: 0
   m_Name: Penlope
   m_TagString: Untagged
@@ -92,7 +93,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -245,8 +246,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!64 &3871428202414332143
-MeshCollider:
+--- !u!136 &127364369858949295
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -255,10 +256,23 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8547780950981868743, guid: 637f23c801c976f4995ca56bac81c507, type: 3}
+  m_Radius: 2.4999223
+  m_Height: 14.827434
+  m_Direction: 2
+  m_Center: {x: 0, y: 2.0278993, z: 2.1705117}
+--- !u!65 &5073779097853250628
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811187696550066529}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.77254, y: 0.16218543, z: 10.553135}
+  m_Center: {x: -0.15300298, y: -0.7782918, z: 1.1438959}
 --- !u!1 &6601637727055293843
 GameObject:
   m_ObjectHideFlags: 0

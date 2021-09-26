@@ -371,7 +371,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408963572}
-  m_LocalRotation: {x: 0.25061864, y: 0.000000075789636, z: 0.000000009032999, w: 0.96808594}
+  m_LocalRotation: {x: 0.25061852, y: 0.000000075789636, z: 0.00000000903301, w: 0.96808594}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -560,7 +560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 623207269}
   cam: {fileID: 1902702163}
-  groundCheck: {fileID: 1741024466}
   groundMask:
     serializedVersion: 2
     m_Bits: 128
@@ -975,7 +974,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641280127}
-  m_LocalRotation: {x: 0.23317851, y: -0, z: -0, w: 0.972434}
+  m_LocalRotation: {x: 0.23317885, y: -0, z: -0, w: 0.97243387}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1341,7 +1340,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1896232903}
-  m_LocalRotation: {x: 0.21533424, y: 0.000000109270076, z: -0.0000000622706, w: 0.97654045}
+  m_LocalRotation: {x: 0.21533437, y: 0.0000001092701, z: -0.00000006227064, w: 0.97654045}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
