@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
         MenuRoot.SetActive(false);
         loseText.enabled = false;
         winText.enabled = false;
+        Time.timeScale = 1f;
     }
 
     void Update()
