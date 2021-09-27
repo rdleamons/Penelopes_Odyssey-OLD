@@ -10,10 +10,10 @@ public class ThirdPersonMovement : MonoBehaviour
     public LayerMask groundMask;
 
     public float speed = 6f;
-    public float gravity = -9.81f;
     public float jumpHeight = 3f;
-    public float groundDistance = 0.1f;
-    public float turnSmoothTime = 0.1f;
+    //private float groundDistance = 0.1f;
+    private float turnSmoothTime = 0.1f;
+    public float gravMultiplier = 3f;
     public bool canMove;
 
     private float turnSmoothVelocity;
@@ -33,12 +33,12 @@ public class ThirdPersonMovement : MonoBehaviour
         Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         // Apply gravity to the controller
-        velocity.y += gravity * Time.deltaTime;
+        velocity.y += Physics.gravity.y * gravMultiplier * Time.deltaTime;
         
         // Jump
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
-            //velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            //velocity.y = Mathf.Sqrt(jumpHeight * -gravMultiplier * Physics.gravity.y);
             velocity.y = jumpHeight;
         }
 

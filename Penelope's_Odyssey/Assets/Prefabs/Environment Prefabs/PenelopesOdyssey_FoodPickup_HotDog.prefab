@@ -91,6 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5641965814687608516}
   - component: {fileID: 1906969771940854343}
+  - component: {fileID: 5971673930872656655}
   m_Layer: 0
   m_Name: PenelopesOdyssey_FoodPickup_HotDog
   m_TagString: Untagged
@@ -127,3 +128,16 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &5971673930872656655
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4974114361978811518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.862923, y: 9.389907, z: 12.9216}
+  m_Center: {x: 2.0881844, y: 4.1949534, z: 1.4864044}
