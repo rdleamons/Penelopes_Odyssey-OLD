@@ -4,16 +4,26 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class loadScene : MonoBehaviour
 {
     public string sceneName;
     public TextMeshProUGUI winText;
+
+    public Scene currentScene;
     //public Movement movement;
 
     private void Start()
     {
         //winText.enabled = false;
+        currentScene = SceneManager.GetActiveScene();
+
+        if(currentScene.name == "Start Screen")
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
     }
 
     public void LoadScene()
