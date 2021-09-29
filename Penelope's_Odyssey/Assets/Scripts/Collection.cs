@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Collection : MonoBehaviour
 {
-    // Can be added to movement/manager later
 
     public int foodEaten;
-    public GameManager1 manager;
+    public GameManager GameManager;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "food")
         {
             foodEaten += 1;
-            manager.hunger = 100;
+            GameManager.hunger = 100;
             Destroy(other.gameObject);
         }
     }

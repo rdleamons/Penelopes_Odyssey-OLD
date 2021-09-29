@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4838816296865747454}
   - component: {fileID: 5896588112233728443}
   - component: {fileID: 8979894675732807191}
-  - component: {fileID: 4872694863872085541}
+  - component: {fileID: 6642687122302179939}
   - component: {fileID: 881670630843122732}
   - component: {fileID: 127364369858949295}
   - component: {fileID: 5073779097853250628}
@@ -115,10 +115,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   speed: 6
-  gravity: -9.81
   jumpHeight: 3
-  groundDistance: 0.1
-  turnSmoothTime: 0.1
+  gravMultiplier: 3
   canMove: 0
 --- !u!114 &8979894675732807191
 MonoBehaviour:
@@ -136,7 +134,7 @@ MonoBehaviour:
   target: {fileID: 0}
   controller: {fileID: 0}
   audioSource: {fileID: 0}
---- !u!114 &4872694863872085541
+--- !u!114 &6642687122302179939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -149,7 +147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foodEaten: 0
-  manager: {fileID: 0}
 --- !u!82 &881670630843122732
 AudioSource:
   m_ObjectHideFlags: 0
