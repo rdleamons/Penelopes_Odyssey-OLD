@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5380257776662062253}
-  - component: {fileID: 1996279272674984960}
+  - component: {fileID: 7668934499756915776}
   m_Layer: 0
   m_Name: Trashcan3
   m_TagString: Untagged
@@ -196,7 +196,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -91.823, z: 0}
---- !u!64 &1996279272674984960
+--- !u!64 &7668934499756915776
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,7 +207,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &4884468227554569188
