@@ -7,7 +7,7 @@ public class Collection : MonoBehaviour
     // Can be added to movement/manager later
 
     public int foodEaten;
-    public GameManager manager;
+    public GameManager1 manager;
 
     void OnTriggerEnter(Collider other)
     {
