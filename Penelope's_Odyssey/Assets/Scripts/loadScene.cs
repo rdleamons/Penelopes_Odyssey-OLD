@@ -19,7 +19,7 @@ public class loadScene : MonoBehaviour
         //winText.enabled = false;
         currentScene = SceneManager.GetActiveScene();
 
-        if(currentScene.name == "Start Screen")
+        if(currentScene.buildIndex == 0)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
